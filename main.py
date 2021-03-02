@@ -11,7 +11,7 @@ def create_caption(product_detail) -> str:
     else:
         caption += "💰 <b>Price:</b> " + "{:,}".format(float(price.get('real_price'))) + " T" + '\n'
     caption += f'🔗 <b>Link:</b> {link}' + '\n'
-    caption += '📞 <b>Contact:</b> +989331764376'
+    caption += '📞 <b>Contact:</b> ...'
 
     return caption
 
